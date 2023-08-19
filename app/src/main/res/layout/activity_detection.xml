@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Detection">
+
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/imageVW"
+                android:src="@drawable/ic_image"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                />
+
+            <TextView
+                android:id="@+id/resultOptions"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textColor="#CC1414"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_height="160dp">
+
+                <Button
+                    android:id="@+id/btnSelectPicture"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="150dp"
+                    android:layout_gravity="center"
+                    android:layout_height="55dp"
+                    android:layout_centerInParent="true"
+                    android:textAllCaps="false"
+                    android:text="Select"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    />
+
+
+
+                <Button
+                    android:id="@+id/btnTakePicture"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="150dp"
+                    android:layout_gravity="center"
+                    android:layout_height="55dp"
+                    android:layout_centerInParent="true"
+                    android:textAllCaps="false"
+                    android:text="Take"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    />
+
+
+            </LinearLayout>
+
+
+
+</LinearLayout>

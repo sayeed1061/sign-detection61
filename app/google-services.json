@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "112371624550",
+    "project_id": "sign-language-detection-99d91",
+    "storage_bucket": "sign-language-detection-99d91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112371624550:android:cc5db805cc1c9811369ba7",
+        "android_client_info": {
+          "package_name": "com.example.signdetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112371624550-ngtlqletdbdgicisvje5uhd16ued9gqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAxJHgiOyWQ5gEOSrj-nW6mnPzMCeczkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112371624550-ngtlqletdbdgicisvje5uhd16ued9gqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
